@@ -1,0 +1,152 @@
+[
+  {
+    "playerId": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://i.ibb.co.com/XSsXRm5/1678836965-57c7769197215ff88fbbb4b52c34856d.gif",
+    "role": "Batsman",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "None",
+    "biddingPrice": 200000
+  },
+  {
+    "playerId": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://crictoday.com/wp-content/uploads/2023/04/Untitled-design.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "None",
+    "biddingPrice": 190000
+  },
+  {
+    "playerId": 3,
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://i.ibb.co.com/WVM4mYn/Untitled-design-12.jpg",
+    "role": "All-Rounder",
+    "battingType": "Left-hand Bat",
+    "bowlingType": "Right-arm Medium Fast",
+    "biddingPrice": 220000
+  },
+  {
+    "playerId": 4,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "image": "https://i.ibb.co.com/0KgqtwM/shaheen-afridi-fastest-bowler-to-take-100-odi-wickets-31-10-2023.jpg",
+    "role": "Bowler",
+    "battingType": "Left-hand Bat",
+    "bowlingType": "Left-arm Fast",
+    "biddingPrice": 180000
+  },
+  {
+    "playerId": 5,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "image": "https://i.ibb.co.com/HBtY5Rh/3902bcf320fd7da00187599702f3e0b9.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "Leg Spin",
+    "biddingPrice": 210000
+  },
+  {
+    "playerId": 6,
+    "name": "Williamson",
+    "country": "New Zealand",
+    "image": "https://i.ibb.co.com/NstfydR/images-q-tbn-ANd9-Gc-Rucu-OD7oia-Et-Ukq4-Vt-TL0h-l-TZLhq32sr-UZw-s.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "Off Spin",
+    "biddingPrice": 195000
+  },
+  {
+    "playerId": 7,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://i.ibb.co.com/KXqKWWZ/images-q-tbn-ANd9-Gc-Q-c-Ddzksj-H-K-ul3-V4k-Ki-Wd-F5-HRUPI7-uepg-s.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "Right-arm Leg Spin",
+    "biddingPrice": 185000
+  },
+  {
+    "playerId": 8,
+    "name": "Jos Buttler",
+    "country": "England",
+    "image": "https://i.ibb.co.com/QYpY3L4/skysports-cricket-cricket-world-cup-6309036.jpg",
+    "role": "Wicketkeeper",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "None",
+    "biddingPrice": 175000
+  },
+  {
+    "playerId": 9,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://i.ibb.co.com/2PqTwc0/lyst2qagk9cnnbmmss0f.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "Right-arm Fast",
+    "biddingPrice": 200000
+  },
+  {
+    "playerId": 10,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "image": "https://example.com/pat_cummins.png",
+    "role": "Bowler",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "Right-arm Fast",
+    "biddingPrice": 195000
+  },
+  {
+    "playerId": 11,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "image": "https://example.com/shakib_al_hasan.png",
+    "role": "All-Rounder",
+    "battingType": "Left-hand Bat",
+    "bowlingType": "Left-arm Spin",
+    "biddingPrice": 180000
+  },
+  {
+    "playerId": 12,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "image": "https://example.com/trent_boult.png",
+    "role": "Bowler",
+    "battingType": "Left-hand Bat",
+    "bowlingType": "Left-arm Fast",
+    "biddingPrice": 185000
+  },
+  {
+    "playerId": 13,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "image": "https://example.com/quinton_de_kock.png",
+    "role": "Wicketkeeper",
+    "battingType": "Left-hand Bat",
+    "bowlingType": "None",
+    "biddingPrice": 170000
+  },
+  {
+    "playerId": 14,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://example.com/david_warner.png",
+    "role": "Batsman",
+    "battingType": "Left-hand Bat",
+    "bowlingType": "None",
+    "biddingPrice": 200000
+  },
+  {
+    "playerId": 15,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "image": "https://example.com/rohit_sharma.png",
+    "role": "Batsman",
+    "battingType": "Right-hand Bat",
+    "bowlingType": "Off Spin",
+    "biddingPrice": 210000
+  }
+]

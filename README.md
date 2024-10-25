@@ -1,8 +1,13 @@
-# React + Vite
+# BPL Dream 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based cricket team management application where users can select players, manage coins, and create their dream team.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- JSON for player data
+- React-Toastify for notifications
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- Responsive design with player selection and removal features
+- Coin management system with validation checks
+- Toast notifications for a better user experience
