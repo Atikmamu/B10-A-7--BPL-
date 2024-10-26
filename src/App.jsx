@@ -1,40 +1,42 @@
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import PlayerSection from "./components/PlayerSection";
+import Newsletter from "./components/Newsletter";
 import { useState } from "react";
-import { useEffect } from "react";
 
-const App = () => {
+function App() {
   const [players, setPlayers] = useState([]);
+  const [mainCoins, setMainCoin] = useState(0);
 
-  // const getData = async () => {
-  //   const res = await fetch("playerData.json");
-  //   const data = await res.json();
-  //   setPlayers(data);
-  // };
-
-  // useEffect(() => {
-  //   getData();
-  // }, []);
-
-  useEffect(() => {
-    fetch("playerData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setPlayers(data);
-      });
-  }, []);
+  const handleIncreaseCoins = () => {
+    setMainCoin(mainCoins + 600000);
+  };
 
   return (
-    <div>
-      <h1>Player data:</h1>
-      <div className="grid grid-cols-6 gap-4">
-        {players.map((player) => (
-          <div key={player.playerId}>
-            <h1>{player.name}</h1>
-            <img src={player.image} alt="" />
-          </div>
-        ))}
+    <div className="min-h-screen flex flex-col">
+      <Header mainCoins={mainCoins} setMainCoin={setMainCoin} />
+      <Banner onClaimCredit={handleIncreaseCoins} />
+
+      <div className="flex-1">
+        <PlayerSection
+          players={players}
+          setPlayers={setPlayers}
+          mainCoins={mainCoins}
+          setMainCoin={setMainCoin}
+        />
+      </div>
+
+      <div className="relative flex-1">
+        <div className="absolute -top-[5%] md:-top-[5%] lg:-top-10 w-full">
+          <Newsletter />
+        </div>
+        <div className="pt-24 md:pt-32 lg:pt-40">
+          <Footer />
+        </div>
       </div>
     </div>
   );
-};
+}
 
 export default App;
